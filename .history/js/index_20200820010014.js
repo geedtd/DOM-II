@@ -1,11 +1,9 @@
-// Your code goes here 
-//#1
+// Your code goes here
 let logo = document.querySelector(".logo-heading");
 logo.addEventListener('mouseover', () => {
     logo.style.transform = "scale(1.2)";
 })
 
-// #2
 let navi = document.querySelector(".nav")
 let nav = document.querySelectorAll(".nav > a");
 navi.addEventListener('mouseover', () => {
@@ -14,11 +12,3 @@ navi.addEventListener('mouseover', () => {
         // colors = ["red"],["green"],["blue"],["red"];
     }
 })
-
-//#3
-
-//#4
-
-//#5
-
-//#6
